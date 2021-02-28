@@ -1,0 +1,1469 @@
+{
+  "intents": [
+    {
+      "intent": "Bitly",
+      "examples": [
+        {
+          "text": "O que é o Bitly?"
+        }
+      ],
+      "description": "Bitly"
+    },
+    {
+      "intent": "citacoes",
+      "examples": [
+        {
+          "text": "citações"
+        },
+        {
+          "text": "Como devo citar no meu trabalho?"
+        }
+      ],
+      "description": "Citação nos trabalhos acadêmicos"
+    },
+    {
+      "intent": "douglas",
+      "examples": [
+        {
+          "text": "Douglas De Rizzo Meneghetti"
+        }
+      ],
+      "description": "Douglas De Rizzo Meneghetti"
+    },
+    {
+      "intent": "entrega_trabalhos",
+      "examples": [
+        {
+          "text": "Como entrego meu trabalho acadêmico?"
+        },
+        {
+          "text": "entrega de trabalho"
+        },
+        {
+          "text": "entrega de trabalho acadêmico"
+        },
+        {
+          "text": "Onde devo entregar meu trabalho?"
+        },
+        {
+          "text": "Quero mais informações sobre como posso entregar meu trabalho"
+        }
+      ],
+      "description": "Procedimento para entrega de Trabalhos Acadêmicos"
+    },
+    {
+      "intent": "estrutura",
+      "examples": [
+        {
+          "text": "Qual estrutura devo seguir no meu trabalho?"
+        }
+      ],
+      "description": "Estrutura do trabalho acadêmico"
+    },
+    {
+      "intent": "ficha_catalografica",
+      "examples": [
+        {
+          "text": "A FEI tem ficha catalográfica?"
+        },
+        {
+          "text": "ficha catalografica"
+        },
+        {
+          "text": "O que é ficha catalográfica"
+        },
+        {
+          "text": "Quero saber sobre ficha catalografica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "github_classe_latex",
+      "examples": [
+        {
+          "text": "GitHub Classe LaTeX"
+        }
+      ],
+      "description": "GitHub Classe LaTeX"
+    },
+    {
+      "intent": "grupo_google_classe_latex",
+      "examples": [
+        {
+          "text": "Grupo do Google do Classe LaTeX"
+        }
+      ],
+      "description": "Grupo do Google do Classe LaTeX"
+    },
+    {
+      "intent": "guia_elaboracao_trabalhos",
+      "examples": [
+        {
+          "text": "A FEI disponibiliza algum guia para elaboração de trabalhos?"
+        },
+        {
+          "text": "Como devo elaborar meu trabalho?"
+        },
+        {
+          "text": "Guia de elaboração de trabalhos acadêmicos"
+        }
+      ],
+      "description": "Guia para elaboração de trabalhos acadêmicos da FEI"
+    },
+    {
+      "intent": "guia_reforma_ortografica",
+      "examples": [
+        {
+          "text": "Guia da nova reforma ortográfica"
+        },
+        {
+          "text": "reforma ortográfica"
+        }
+      ],
+      "description": "Guia da nova reforma ortográfica"
+    },
+    {
+      "intent": "Horario_de_Funcionamento",
+      "examples": [
+        {
+          "text": "horario"
+        },
+        {
+          "text": "qual o horario de funcionamento da biblioteca"
+        },
+        {
+          "text": "que horas eu posso pegar os livros?"
+        },
+        {
+          "text": "que horas eu posso pegar os materiais"
+        },
+        {
+          "text": "que hrs vcs fecham?"
+        }
+      ]
+    },
+    {
+      "intent": "latex",
+      "examples": [
+        {
+          "text": "LaTeX"
+        },
+        {
+          "text": "O que é a Classe LaTeX da FEI?"
+        }
+      ],
+      "description": "Classe LaTeX da FEI"
+    },
+    {
+      "intent": "mactex",
+      "examples": [
+        {
+          "text": "link MacTex"
+        }
+      ],
+      "description": "MacTex"
+    },
+    {
+      "intent": "manual_latex",
+      "examples": [
+        {
+          "text": "link manual de utilização"
+        }
+      ],
+      "description": "Manual de Utilização Classe LaTeX"
+    },
+    {
+      "intent": "mendeley",
+      "examples": [
+        {
+          "text": "O que é o Mendeley?"
+        }
+      ],
+      "description": "Mendeley"
+    },
+    {
+      "intent": "miktex",
+      "examples": [
+        {
+          "text": "link MikTex"
+        }
+      ],
+      "description": "MikTex"
+    },
+    {
+      "intent": "more",
+      "examples": [
+        {
+          "text": "Mecanismo Online para Referências"
+        },
+        {
+          "text": "O que é o MORE?"
+        }
+      ],
+      "description": "Mecanismo Online para Referências (MORE)"
+    },
+    {
+      "intent": "normalizacao_trabalhos",
+      "examples": [
+        {
+          "text": "Como é feita a normalização de trabalhos acadêmicos?"
+        },
+        {
+          "text": "normalização"
+        },
+        {
+          "text": "normalização de trabalhos"
+        }
+      ],
+      "description": "Orientação para normalização de trabalhos acadêmicos"
+    },
+    {
+      "intent": "Pesquisar_Livros",
+      "examples": []
+    },
+    {
+      "intent": "plagio",
+      "examples": [
+        {
+          "text": "combate ao plagio"
+        },
+        {
+          "text": "Como a FEI combate o plagio nos trabalhos?"
+        },
+        {
+          "text": "plagio"
+        },
+        {
+          "text": "Quero saber mais sobre o Combate ao Plagio"
+        }
+      ],
+      "description": "Combate ao Plagio"
+    },
+    {
+      "intent": "referencias",
+      "examples": [
+        {
+          "text": "Como devem ser minha referências?"
+        },
+        {
+          "text": "Referências num trabalho acadêmico"
+        }
+      ],
+      "description": "Referências num trabalho acadêmico"
+    },
+    {
+      "intent": "Renovacao_Livros",
+      "examples": [
+        {
+          "text": "oi queria realizar a renovação"
+        },
+        {
+          "text": "quero fazer renovação"
+        },
+        {
+          "text": "renovar livros"
+        }
+      ]
+    },
+    {
+      "intent": "Retirar_Livros",
+      "examples": [
+        {
+          "text": "como faz para retirar um livro?"
+        },
+        {
+          "text": "oi eu queria fazer um empréstimo de um livro"
+        },
+        {
+          "text": "queria pegar um livro"
+        }
+      ]
+    },
+    {
+      "intent": "site_classe_latex",
+      "examples": [
+        {
+          "text": "site classe latex"
+        }
+      ],
+      "description": "Site Classe LaTeX"
+    },
+    {
+      "intent": "template_iniciacao_cientifica",
+      "examples": [
+        {
+          "text": "Os trabalhos da iniciação científica precisam de algum modelo?"
+        },
+        {
+          "text": "template iniciação científica"
+        }
+      ],
+      "description": "Template dos trabalhos de iniciação científica"
+    },
+    {
+      "intent": "template_latex",
+      "examples": [
+        {
+          "text": "template classe latex"
+        },
+        {
+          "text": "Template LaTeX"
+        }
+      ],
+      "description": "Template Classe LaTeX"
+    },
+    {
+      "intent": "template_plano_negocios",
+      "examples": [
+        {
+          "text": "Como devo criar meu plano de negócio?"
+        },
+        {
+          "text": "modelo plano de negocios"
+        },
+        {
+          "text": "template plano de negócios"
+        }
+      ],
+      "description": "Template do plano de negócios elaborado para o curso de administração"
+    },
+    {
+      "intent": "template_trabalho_academico",
+      "examples": [
+        {
+          "text": "Existe algum template que eu possa seguir para fazer meu trabalho?"
+        },
+        {
+          "text": "modelo de trabalho acadêmico"
+        }
+      ],
+      "description": "Template do trabalho academico"
+    },
+    {
+      "intent": "termos_entrega_trabalho",
+      "examples": [
+        {
+          "text": "Quais são os termos de autorização sobre as entregas de trabalho"
+        },
+        {
+          "text": "Quero saber mais sobre os termos antes de entregar meu trabalho"
+        }
+      ],
+      "description": "Termos de autorização"
+    },
+    {
+      "intent": "tex_live",
+      "examples": [
+        {
+          "text": "link Tex Live"
+        }
+      ],
+      "description": "Tex Live"
+    },
+    {
+      "intent": "Trabalhos_Academicos",
+      "examples": [
+        {
+          "text": "como fazer um trabalho academico"
+        },
+        {
+          "text": "queria saber como fazer meu tcc"
+        },
+        {
+          "text": "trabalho"
+        }
+      ]
+    },
+    {
+      "intent": "tutorial_arquivo_pdf",
+      "examples": [
+        {
+          "text": "Como devo salvar meu arquivo de trabalho pronto?"
+        },
+        {
+          "text": "PDF"
+        },
+        {
+          "text": "salvar arquivo como PDF"
+        }
+      ],
+      "description": "Tutorial para salvar arquivo como PDF/A"
+    },
+    {
+      "intent": "tutorial_ilustracoes",
+      "examples": [
+        {
+          "text": "Como devo inserir as ilustrações no meu trabalho"
+        },
+        {
+          "text": "lista de ilustrações"
+        }
+      ],
+      "description": "Tutorial de lista de ilustrações"
+    },
+    {
+      "intent": "tutorial_paginacao",
+      "examples": [
+        {
+          "text": "Como deve ser a paginação nos meus trabalhos?"
+        },
+        {
+          "text": "tutorial de paginação"
+        }
+      ],
+      "description": "Tutorial de paginação"
+    },
+    {
+      "intent": "tutorial_sumario",
+      "examples": [
+        {
+          "text": "Como deve ser o sumário nos meus trabalhos?"
+        },
+        {
+          "text": "sumário"
+        }
+      ],
+      "description": "Tutorial de sumário"
+    },
+    {
+      "intent": "tutorial_tabelas",
+      "examples": [
+        {
+          "text": "Como devem ser as tabelas no meu trabalho?"
+        },
+        {
+          "text": "lista de tabelas"
+        }
+      ],
+      "description": "Tutorial de lista de tabelas"
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_8_1614537525727",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Template Trabalho Academico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o template para trabalhos acadêmicos, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/template.docx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#template_trabalho_academico",
+      "dialog_node": "node_10_1614539864435",
+      "previous_sibling": "node_4_1614539726760"
+    },
+    {
+      "type": "standard",
+      "title": "Tutorial de paginação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o tutorial de paginação de trabalhos, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/paginacao.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#tutorial_paginacao",
+      "dialog_node": "node_10_1614540003404",
+      "previous_sibling": "node_7_1614539976420"
+    },
+    {
+      "type": "standard",
+      "title": "Citação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber mais sobre Citação nos trabalhos acadêmicos, acesse: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/vestibular/22020/citacao_rev-2020.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#citacoes",
+      "dialog_node": "node_1_1614539533749"
+    },
+    {
+      "type": "standard",
+      "title": "MikTex",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse MikTex, via: https://miktex.org/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#miktex",
+      "dialog_node": "node_1_1614541942630"
+    },
+    {
+      "type": "standard",
+      "title": "Orientação para normalização de trabalhos acadêmicos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber mais sobre a normalização de trabalhos acadêmicos, acesse: https://static.fei.edu.br/Arquivos/img/biblioteca/trabalhos-academicos.jpg"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#normalizacao_trabalhos",
+      "dialog_node": "node_2_1614538552377",
+      "previous_sibling": "node_6_1614538732939"
+    },
+    {
+      "type": "standard",
+      "title": "Tutorial de lista de tabelas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o tutorial de lista de tabelas de trabalhos, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/tabelas.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#tutorial_tabelas",
+      "dialog_node": "node_2_1614540099817",
+      "previous_sibling": "node_8_1614540067002"
+    },
+    {
+      "type": "standard",
+      "title": "Classe LaTeX da FEI",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A classe LaTeX da FEI é um arquivo de formatação de trabalhos acadêmicos para usuários de LaTeX, de acordo com as normas de formatação do Centro Universitário FEI. Ela está disponível nas principais distribuições de LaTeX (MikTeX no Windows, MacTeX no MacOS e TeX Live no Linux), possui um manual de utilização em PDF e um template para ajudar usuários a iniciar seus trabalhos acadêmicos.\n\nA classe também possui um site e um grupo no Google com dicas para usuários. O projeto de código aberto é mantido no GitHub, tendo como desenvolvedor principal Douglas De Rizzo Meneghetti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Quero saber mais sobre",
+            "options": [
+              {
+                "label": "MikTeX",
+                "value": {
+                  "input": {
+                    "text": "Link do MikTeX"
+                  }
+                }
+              },
+              {
+                "label": "MacTeX",
+                "value": {
+                  "input": {
+                    "text": "Link do MacTeX"
+                  }
+                }
+              },
+              {
+                "label": "TeX Live",
+                "value": {
+                  "input": {
+                    "text": "Link do TeX Live"
+                  }
+                }
+              },
+              {
+                "label": "Manual de utilização LaTeX",
+                "value": {
+                  "input": {
+                    "text": "Manual de Utilização"
+                  }
+                }
+              },
+              {
+                "label": "Template LaTeX",
+                "value": {
+                  "input": {
+                    "text": "Template LaTeX"
+                  }
+                }
+              },
+              {
+                "label": "Site Classe LaTeX",
+                "value": {
+                  "input": {
+                    "text": "Site Classe LaTeX"
+                  }
+                }
+              },
+              {
+                "label": "Grupo do Google Classe LaTeX",
+                "value": {
+                  "input": {
+                    "text": "Grupo do Google Classe LateX"
+                  }
+                }
+              },
+              {
+                "label": "GitHub Classe LaTeX",
+                "value": {
+                  "input": {
+                    "text": "GitHub Classe LaTeX"
+                  }
+                }
+              },
+              {
+                "label": "Douglas De Rizzo Meneghetti",
+                "value": {
+                  "input": {
+                    "text": "Douglas De Rizzo Meneghetti"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#latex",
+      "dialog_node": "node_2_1614540946130",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Combate ao Plagio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca do Centro Universitário FEI, por recomendação da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), divulga ao seu público um texto informativo, com intuito de coibir o plágio nas produções acadêmicas desenvolvidas na IES.\n\nPara auxiliá-los segue opções gratuitas de detecção de plágio:\n\nFarejador de Plágio\nPlagium\nPlagiarisma"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#plagio",
+      "dialog_node": "node_3_1614538024310",
+      "previous_sibling": "node_2_1614538552377"
+    },
+    {
+      "type": "standard",
+      "title": "Termos Autorização",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico em grupo). \n Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico individual).\n Termo de autorização para divulgação do texto de tese, dissertação ou monografia e sua disponibilização ao público (Em grupo).\n Termo de autorização para divulgação do texto de tese, dissertação ou monografia e sua disponibilização ao público (Individual).\n Termo de encaminhamento de dissertação/tese."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614537525727",
+      "conditions": "#termos_entrega_trabalho",
+      "dialog_node": "node_3_1614538221133"
+    },
+    {
+      "type": "standard",
+      "title": "Tutorial de sumário",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o tutorial de sumário de trabalhos, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/sumario.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#tutorial_sumario",
+      "dialog_node": "node_3_1614540036842",
+      "previous_sibling": "node_10_1614540003404"
+    },
+    {
+      "type": "standard",
+      "title": "Tutorial para salvar arquivo como PDF/A",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o tutorial para salvar arquivo como PDF/A de trabalhos, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/conversorpdf.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#tutorial_arquivo_pdf",
+      "dialog_node": "node_3_1614540136314",
+      "previous_sibling": "node_2_1614540099817"
+    },
+    {
+      "type": "standard",
+      "title": "MacTeX",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse MacTeX, via: http://www.tug.org/mactex/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#mactex",
+      "dialog_node": "node_3_1614541967925",
+      "previous_sibling": "node_1_1614541942630"
+    },
+    {
+      "type": "standard",
+      "title": "Site do Classe LaTeX",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o site do Classe LaTeX, via: http://douglasrizzo.com.br/Classe-Latex-FEI/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#site_classe_latex",
+      "dialog_node": "node_3_1614542079713",
+      "previous_sibling": "node_7_1614542052938"
+    },
+    {
+      "type": "standard",
+      "title": "Estrutura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber mais sobre Estrutura dos trabalhos acadêmicos, acesse: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/estrutura_2020.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#estrutura",
+      "dialog_node": "node_4_1614539619626",
+      "previous_sibling": "node_1_1614539533749"
+    },
+    {
+      "type": "standard",
+      "title": "Referências",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber mais sobre Citação nos trabalhos acadêmicos, acesse: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/referencias_2020.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#referencias",
+      "dialog_node": "node_4_1614539726760",
+      "previous_sibling": "node_4_1614539619626"
+    },
+    {
+      "type": "standard",
+      "title": "Bitly",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "bitly é um dos mais famosos gerenciadores e encurtadores de URL da internet. Confira!\n\nAcesse o Bitly via link: https://bitly.com/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bitly",
+      "dialog_node": "node_4_1614541141924",
+      "previous_sibling": "node_6_1614541071181"
+    },
+    {
+      "type": "standard",
+      "title": "GitHub Classe LaTeX",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o github do Classe LaTeX, via: https://github.com/douglasrizzo/Classe-Latex-FEI"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#github_classe_latex",
+      "dialog_node": "node_4_1614542150686",
+      "previous_sibling": "node_5_1614542118911"
+    },
+    {
+      "type": "standard",
+      "title": "Mecanismo Online para Referências (MORE)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MORE é uma ferramenta gratuita e fácil de usar, que produz automaticamente citações no texto e referências no formato ABNT.\n\n Acesse o MORE via link: http://www.more.ufsc.br/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#more",
+      "dialog_node": "node_5_1614541034199",
+      "previous_sibling": "node_2_1614540946130"
+    },
+    {
+      "type": "standard",
+      "title": "Grupo do Google Classe LaTeX",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o grupo do google do Classe LaTeX, via: https://groups.google.com/forum/#!topic/grupo-latex-fei/CmJgGQiFZy4"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#grupo_google_classe_latex",
+      "dialog_node": "node_5_1614542118911",
+      "previous_sibling": "node_3_1614542079713"
+    },
+    {
+      "type": "standard",
+      "title": "Ficha Catalografica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca da FEI disponibiliza para seus usuários o sistema para elaboração de fichas catalográficas que foi desenvolvido pelo ICMC/USP e gentilmente cedido para ser adaptado às necessidades de sua comunidade acadêmica.\n\nA partir de outubro de 2015 a ficha catalográfica passa a ser elaborada pelo próprio usuário e deve ser impressa no verso da página/folha de rosto.\n\nÉ um elemento obrigatório em trabalhos acadêmicos e sua elaboração é feita com as informações fundamentais para a identificação do documento, entre elas: autor e orientador, título, total de folhas, assunto, palavras-chave, etc.\n\nDúvidas e sugestões podem ser enviadas através do email: bib_digital@fei.edu.br\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Clique aqui para elaborar sua Ficha Catalográfica",
+                "value": {
+                  "input": {
+                    "text": "http://sofia.fei.edu.br/ficha/"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#ficha_catalografica",
+      "dialog_node": "node_6_1614537328997",
+      "previous_sibling": "node_9_1614541187288"
+    },
+    {
+      "type": "standard",
+      "title": "Guia elaboração de Trabalhos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O guia substitui o Manual para apresentação formal de trabalhos acadêmicos. Elaborado de acordo com as normas vigentes da Associação Brasileira de Normas Técnicas (ABNT), traz um novo formato, além de novos exemplos com uma linguagem simples para facilitar a compreensão dos usuários.\n\nInformamos que o guia está disponível somente na versão eletrônica.\n\nO seu enfoque não é só a padronização disponibilizada através das normas estabelecidas, mas principalmente a qualidade dos trabalhos apresentados na instituição.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Quero saber mais sobre",
+            "options": [
+              {
+                "label": "Citação",
+                "value": {
+                  "input": {
+                    "text": "Como devo citar no meu trabalho?"
+                  }
+                }
+              },
+              {
+                "label": "Estrutura",
+                "value": {
+                  "input": {
+                    "text": "Qual estrutura devo seguir no meu trabalho?"
+                  }
+                }
+              },
+              {
+                "label": "Referência",
+                "value": {
+                  "input": {
+                    "text": "Como devem ser minha referências?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "A biblioteca disponibiliza os tutoriais de configuração do Word e uma template do trabalho pronto, mais um recurso para ajudá-lo na estruturação do TCC."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Quero saber mais sobre",
+            "options": [
+              {
+                "label": "Template do trabalho acadêmico",
+                "value": {
+                  "input": {
+                    "text": "Existe algum template que eu possa seguir para fazer meu trabalho?"
+                  }
+                }
+              },
+              {
+                "label": "Template dos trabalhos de iniciação científica",
+                "value": {
+                  "input": {
+                    "text": "Os trabalhos da iniciação científica precisam de algum modelo?"
+                  }
+                }
+              },
+              {
+                "label": "Template do plano de negócios elaborado para o curso de administração",
+                "value": {
+                  "input": {
+                    "text": "Como devo criar meu plano de negócio?"
+                  }
+                }
+              },
+              {
+                "label": "Tutorial de paginação",
+                "value": {
+                  "input": {
+                    "text": "Como deve ser a paginação nos meus trabalhos?"
+                  }
+                }
+              },
+              {
+                "label": "Tutorial de sumário",
+                "value": {
+                  "input": {
+                    "text": "Como deve ser o sumário nos meus trabalhos?"
+                  }
+                }
+              },
+              {
+                "label": "Tutorial de lista de ilustrações",
+                "value": {
+                  "input": {
+                    "text": "Como devo inserir as ilustrações no meu trabalho"
+                  }
+                }
+              },
+              {
+                "label": "Tutorial de lista de tabelas",
+                "value": {
+                  "input": {
+                    "text": "Como devem ser as tabelas no meu trabalho?"
+                  }
+                }
+              },
+              {
+                "label": "Tutorial para salvar arquivo como PDF/A",
+                "value": {
+                  "input": {
+                    "text": "Como devo salvar meu arquivo de trabalho pronto?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#guia_elaboracao_trabalhos",
+      "dialog_node": "node_6_1614538732939",
+      "previous_sibling": "node_9_1614536974658"
+    },
+    {
+      "type": "standard",
+      "title": "Mendeley",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Mendeley é considerado uma rede social acadêmica que conecta pesquisadores e permite gerenciar referências, buscar, arquivar e compartilhar documentos.\n\n Acesse o Mendeley via link: https://www.mendeley.com/reference-management/reference-manager"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#mendeley",
+      "dialog_node": "node_6_1614541071181",
+      "previous_sibling": "node_5_1614541034199"
+    },
+    {
+      "type": "standard",
+      "title": "Tex Live",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse Tex Live, via: https://www.tug.org/texlive/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#tex_live",
+      "dialog_node": "node_6_1614541994148",
+      "previous_sibling": "node_3_1614541967925"
+    },
+    {
+      "type": "standard",
+      "title": "Template do plano de negócios elaborado para o curso de administração",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o template para trabalhos de iniciação científica, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateplanodenegocios.docx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#template_plano_negocios",
+      "dialog_node": "node_7_1614539976420",
+      "previous_sibling": "node_8_1614539934062"
+    },
+    {
+      "type": "standard",
+      "title": "Template LaTeX",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o template, via: http://mirrors.ctan.org/macros/latex/contrib/fei/fei-template.tex"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#template_latex",
+      "dialog_node": "node_7_1614542052938",
+      "previous_sibling": "node_9_1614542020099"
+    },
+    {
+      "type": "standard",
+      "title": "Entrega Trabalho Academico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os trabalhos acadêmicos devem ser entregues de acordo com os procedimentos da secretaria do curso. Cabe ao orientador, juntamente com a secretaria, definir quais trabalhos serão entregues, assim como, efetuar a entrega na biblioteca.\n\nAlguns procedimentos são obrigatórios para que essa entrega seja realizada:\na) o trabalho acadêmico deve ser normalizado de acordo com as orientações do Guia para Elaboração de Trabalhos Acadêmicos da FEI;\nb) uma cópia impressa em capa dura na cor preta e letras douradas (Monografias e TCCs) ou na cor azul-marinho e letras douradas (Teses e Dissertações);\n- uma mídia (CD ou DVD) contendo somente o PDF/A para as monografias e TCCs;\n- uma cópia da versão final da dissertação ou tese no formato PDF/A encaminhada para o e-mail:\n\"bib.dissertacoes_teses@fei.edu.br\";\n- termo de autorização para a publicação eletrônica preenchido e assinado por todos os autores do trabalho;\nc) a entrega na biblioteca deverá ser feita pelo orientador ou pela secretaria do curso. A biblioteca não aceita trabalhos entregues diretamente pelos alunos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Termos",
+            "options": [
+              {
+                "label": "Quero saber sobre os termos de autorização",
+                "value": {
+                  "input": {
+                    "text": "Quero saber mais sobre os termos antes de entregar meu trabalho"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#entrega_trabalhos",
+      "dialog_node": "node_8_1614537525727",
+      "previous_sibling": "node_3_1614538024310"
+    },
+    {
+      "type": "standard",
+      "title": "Template dos trabalhos de iniciação científica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o template para trabalhos de iniciação científica, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateiniciacaocientifica.docx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#template_iniciacao_cientifica",
+      "dialog_node": "node_8_1614539934062",
+      "previous_sibling": "node_10_1614539864435"
+    },
+    {
+      "type": "standard",
+      "title": "Tutorial de lista de ilustrações",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o tutorial de lista de ilustrações de trabalhos, via: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/ilustracoes.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1614538732939",
+      "conditions": "#tutorial_ilustracoes",
+      "dialog_node": "node_8_1614540067002",
+      "previous_sibling": "node_3_1614540036842"
+    },
+    {
+      "type": "standard",
+      "title": "Douglas De Rizzo Meneghetti",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Envie um email para Douglas, via : douglasrizzo@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#douglas",
+      "dialog_node": "node_8_1614542199005",
+      "previous_sibling": "node_4_1614542150686"
+    },
+    {
+      "type": "standard",
+      "title": "Trabalho Academico",
+      "output": {
+        "generic": [
+          {
+            "title": "Trabalho Academico",
+            "options": [
+              {
+                "label": "Ficha Catalográfica",
+                "value": {
+                  "input": {
+                    "text": "A FEI tem ficha catalográfica?"
+                  }
+                }
+              },
+              {
+                "label": "Procedimento para entrega de Trabalhos Acadêmicos",
+                "value": {
+                  "input": {
+                    "text": "Como entrego meu trabalho acadêmico?"
+                  }
+                }
+              },
+              {
+                "label": "Combate ao Plágio",
+                "value": {
+                  "input": {
+                    "text": "Quero saber mais sobre o Combate ao Plagio"
+                  }
+                }
+              },
+              {
+                "label": "Orientação para normalização de trabalhos acadêmicos",
+                "value": {
+                  "input": {
+                    "text": "Como é feita a normalização de trabalhos acadêmicos?"
+                  }
+                }
+              },
+              {
+                "label": "Guia para elaboração de trabalhos acadêmicos da FEI",
+                "value": {
+                  "input": {
+                    "text": "Como devo elaborar meu trabalho?"
+                  }
+                }
+              },
+              {
+                "label": "Classe LaTeX da FEI",
+                "value": {
+                  "input": {
+                    "text": "O que é a Classe LaTeX da FEI?"
+                  }
+                }
+              },
+              {
+                "label": "Mecanismo Online para Referências (MORE)",
+                "value": {
+                  "input": {
+                    "text": "O que é o MORE?"
+                  }
+                }
+              },
+              {
+                "label": "Mendeley",
+                "value": {
+                  "input": {
+                    "text": "O que é o Mendeley?"
+                  }
+                }
+              },
+              {
+                "label": "Bitly",
+                "value": {
+                  "input": {
+                    "text": "O que é o Bitly?"
+                  }
+                }
+              },
+              {
+                "label": "Guia da nova reforma ortográfica",
+                "value": {
+                  "input": {
+                    "text": "Guia da nova reforma ortográfica"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Trabalhos_Academicos",
+      "dialog_node": "node_9_1614536974658",
+      "previous_sibling": "node_6_1614537328997"
+    },
+    {
+      "type": "standard",
+      "title": "Guia da nova reforma ortográfica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Saiba o que mudou na ortografia brasileira.\n\nAcesse o guia via link: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/guia_reforma_ortografica_cp.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#guia_reforma_ortografica",
+      "dialog_node": "node_9_1614541187288",
+      "previous_sibling": "node_4_1614541141924"
+    },
+    {
+      "type": "standard",
+      "title": "Manual de Utilização LaTeX",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o manual de utilização, via: http://mirrors.ctan.org/macros/latex/contrib/fei/fei.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614540946130",
+      "conditions": "#manual_latex",
+      "dialog_node": "node_9_1614542020099",
+      "previous_sibling": "node_6_1614541994148"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "TrabalhosAcademicos",
+  "language": "pt-br",
+  "description": ""
+}

@@ -262,6 +262,9 @@
           "text": "quero fazer renovação"
         },
         {
+          "text": "renovacao"
+        },
+        {
           "text": "renovar livros"
         }
       ]
@@ -455,7 +458,7 @@
           {
             "values": [
               {
-                "text": "Olá. Como posso te ajudar?"
+                "text": "Bem-Vindo à Biblioteca Pe. Aldemar Moreira! Como posso ajudar?"
               }
             ],
             "response_type": "text",
@@ -480,7 +483,7 @@
                 "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
               },
               {
-                "text": "Eu não entendi o sentido."
+                "text": "Desculpe, não entendi. Siga-nos nas redes sociais e fique por dentro das novidades!\nInstagram: FEIbiblioteca\nFacebook: biblioteca.fei\nTwitter: FEIbiblioteca"
               }
             ],
             "response_type": "text",
@@ -490,7 +493,7 @@
       },
       "conditions": "anything_else",
       "dialog_node": "Em outros casos",
-      "previous_sibling": "node_8_1614537525727",
+      "previous_sibling": "node_7_1614543906763",
       "disambiguation_opt_out": true
     },
     {
@@ -534,6 +537,26 @@
       "conditions": "#tutorial_paginacao",
       "dialog_node": "node_10_1614540003404",
       "previous_sibling": "node_7_1614539976420"
+    },
+    {
+      "type": "standard",
+      "title": "Retirar Livros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Consulte nosso catálogo online: \nhttp://sofia.fei.edu.br/pergamum/biblioteca/index.php\nPara realizar um empréstimo, é necessário comparecer a banca da biblioteca da FEI e cadastrar a biometria. Após selecionado o livro basta informar o atendente e retirar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1614544626216",
+      "conditions": "#Retirar_Livros",
+      "dialog_node": "node_10_1614544842214"
     },
     {
       "type": "standard",
@@ -712,7 +735,7 @@
       },
       "conditions": "#latex",
       "dialog_node": "node_2_1614540946130",
-      "previous_sibling": "Bem-vindo"
+      "previous_sibling": "node_5_1614544626216"
     },
     {
       "type": "standard",
@@ -964,6 +987,26 @@
     },
     {
       "type": "standard",
+      "title": "Emprestimos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os materiais podem ser renovados através do site da biblioteca pelo próprio usuário por 6 (seis) vezes consecutivas, desde que não possuam reservas, ou estejam, em atraso.\nhttp://sofia.fei.edu.br/pergamum/biblioteca_s/php/login_usu.php?flag=index.php"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Renovacao_Livros",
+      "dialog_node": "node_5_1614544626216",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
       "title": "Ficha Catalografica",
       "output": {
         "generic": [
@@ -1208,6 +1251,26 @@
       "conditions": "#template_latex",
       "dialog_node": "node_7_1614542052938",
       "previous_sibling": "node_9_1614542020099"
+    },
+    {
+      "type": "standard",
+      "title": "Horario de Funcionamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segue abaixo o nosso horário de funcionamento.\nCampus SBC:  Segunda à Sexta-Feira das 09h00 às 19h00 e aos Sábados das 10h00 às 13h00\nCampus SP: Segunda à Sexta-Feira das 9h30 às 17h00."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Horario_de_Funcionamento",
+      "dialog_node": "node_7_1614543906763",
+      "previous_sibling": "node_8_1614537525727"
     },
     {
       "type": "standard",
@@ -1464,6 +1527,6 @@
   },
   "learning_opt_out": false,
   "name": "TrabalhosAcademicos",
-  "language": "pt-br",
+  "language": "en",
   "description": ""
 }
